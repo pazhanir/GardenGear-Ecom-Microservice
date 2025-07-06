@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { ProductRequest, ProductService } from '../product-service/product.service';
+import { ProductRequest, ProductService } from '../product-Service/product.service';
 
 @Component({
   selector: 'app-create-product',

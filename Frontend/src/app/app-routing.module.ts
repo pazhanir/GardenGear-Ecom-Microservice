@@ -3,9 +3,9 @@ import { RouterModule, Routes } from '@angular/router';
 import { CreateProductComponent } from './Components/product/create-product/create-product.component';
 import { LandingComponent } from './Pages/landing/landing.component';
 import { HeroComponent } from './Components/hero/hero.component';
-import {CartComponent} from "./Components/cart/cart/cart.component";
+import {CartComponent} from "./Components/Cart/cart/cart.component";
 import {ProductDetailsComponent} from "./Components/product/product-details/product-details.component";
-import {ThankyouComponent} from "./Components/cart/thankyou/thankyou.component";
+import {ThankyouComponent} from "./Components/Cart/thankyou/thankyou.component";
 
 const routes: Routes = [
   {

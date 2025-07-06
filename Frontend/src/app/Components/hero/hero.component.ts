@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { CartService } from '../cart/cart-service/cart.service';
-import { ProductResponse } from '../product/product-service/product.service';
-import {CartComponent} from "../cart/cart/cart.component";
+import { CartService } from '../Cart/cart-Service/cart.service';
+import { ProductResponse } from '../product/product-Service/product.service';
+import {CartComponent} from "../Cart/cart/cart.component";
 import {MatDialog} from "@angular/material/dialog";
 
 @Component({
@@ -17,7 +17,6 @@ export class HeroComponent {
     public dialog: MatDialog,
   ) {
   }
-
 
   ngOnInit(): void {
     this.cartService.cartItems$.subscribe((items: ProductResponse[]) => {

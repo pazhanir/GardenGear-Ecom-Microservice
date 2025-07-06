@@ -1,7 +1,7 @@
 import {Component, Input} from '@angular/core';
-import {ProductResponse, ProductService} from "../product-service/product.service";
+import {ProductResponse, ProductService} from "../product-Service/product.service";
 import {ActivatedRoute, Router} from "@angular/router";
-import {CartService} from "../../cart/cart-service/cart.service";
+import {CartService} from "../../Cart/cart-Service/cart.service";
 import {MatSnackBar} from "@angular/material/snack-bar";
 
 @Component({

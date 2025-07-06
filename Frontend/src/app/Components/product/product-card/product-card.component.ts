@@ -1,6 +1,6 @@
 import { Component, Input, SimpleChanges } from '@angular/core';
-import { ProductResponse } from '../product-service/product.service';
-import { CartService } from '../../cart/cart-service/cart.service';
+import { ProductResponse } from '../product-Service/product.service';
+import { CartService } from '../../Cart/cart-Service/cart.service';
 import {Router} from "@angular/router";
 import {MatSnackBar} from "@angular/material/snack-bar";
 

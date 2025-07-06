@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
-import { ProductResponse } from '../../product/product-service/product.service';
-import { CartService } from '../cart-service/cart.service';
-import {OrderRequest, OrderService, PaymentMethod} from "../../order/order-service/order.service";
+import { ProductResponse } from '../../product/product-Service/product.service';
+import { CartService } from '../cart-Service/cart.service';
+import {OrderRequest, OrderService, PaymentMethod} from "../../Order/order-Service/order.service";
 import {MatDialog, MatDialogRef} from "@angular/material/dialog";
 import {ThankyouComponent} from "../thankyou/thankyou.component";
 

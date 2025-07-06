@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { OrderRequest, OrderService, PaymentMethod, PurchaseRequest } from '../order-service/order.service';
-import { CartService } from '../../cart/cart-service/cart.service';
+import { OrderRequest, OrderService, PaymentMethod, PurchaseRequest } from '../order-Service/order.service';
+import { CartService } from '../../Cart/cart-Service/cart.service';
 
 @Component({
   selector: 'app-create-prder',
